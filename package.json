@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My Portfolio",
   "main": "index.js",
-  "homepage": "https://quanmq.github.io/projects",
+  "homepage": "https://quanmq.github.io/portfolio",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
