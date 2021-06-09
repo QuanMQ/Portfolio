@@ -1,5 +1,5 @@
-$primary-color: #202022;
-$secondary-color: #41BC3F;
+$primary-color: lighten(#202022, 5);
+$secondary-color: lighten(#41bc3f, 5);
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.9;
@@ -27,7 +27,7 @@ $background-opacity: 0.9;
   @if (lightness($color) > 40) {
     @return #000;
   } @else {
-    @return #fff;
+    @return darken(#fff, 5);
   }
 }
 

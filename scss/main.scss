@@ -74,6 +74,7 @@ main {
   }
 }
 
+// *About Page
 .about-info {
   display: grid;
   gap: 30px;
@@ -123,7 +124,7 @@ main {
 
   img {
     width: 100%;
-    border: 3px #fff solid;
+    border: 3px #f49701 solid;
 
     &:hover {
       opacity: 0.5;
@@ -144,7 +145,7 @@ main {
 
   div {
     font-size: 2rem;
-    border: 3px #fff solid;
+    border: 3px #f49701 solid;
     padding: 1.5rem 1rem;
     margin-bottom: 3rem;
     @include easeOut;
