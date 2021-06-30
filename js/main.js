@@ -4,6 +4,7 @@ const menu = document.querySelector(".menu");
 const menuNav = document.querySelector(".menu-nav");
 const menuBranding = document.querySelector(".menu-branding");
 const navItems = document.querySelectorAll(".nav-item");
+const copyrightDate = document.getElementById("date");
 
 // *Set Initial State Of Menu
 let showMenu = false;
@@ -31,3 +32,7 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+// *Get copyright date
+const year = new Date().getFullYear();
+copyrightDate.innerText = year;
