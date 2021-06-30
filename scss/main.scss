@@ -186,6 +186,21 @@ main {
   color: #333;
 }
 
+#btn-link {
+  display: inline-block;
+  background-color: #f49701;
+  color: set-text-color(#f49701);
+  padding: 0 10px;
+  border-radius: 5px;
+  outline: none;
+  @include easeOut;
+}
+
+#btn-link:hover {
+  background-color: lighten(#f49701, 15);
+  transform: scale(0.95);
+}
+
 #main-footer {
   text-align: center;
   padding: 1rem;
